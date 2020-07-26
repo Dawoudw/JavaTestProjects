@@ -1,0 +1,7 @@
+package JavaCore;
+
+@FunctionalInterface
+public interface IChild {
+	@Override
+public <T>void  new();
+}

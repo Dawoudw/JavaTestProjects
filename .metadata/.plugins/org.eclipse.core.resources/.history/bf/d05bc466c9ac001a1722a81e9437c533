@@ -1,0 +1,27 @@
+package dev.wael.entities;
+
+import java.time.Instant;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tasklist")
+public class TaskList {
+
+	public TaskList() {
+		// TODO Auto-generated constructor stub
+	}
+	/*
+	 * SELECT id, title, description, status, taskid, duedate FROM todo.listitem;
+	 * SELECT tid, listname, creationdate, isdone FROM todo.tasklist;
+	 */
+
+	int tid;
+	String listname;
+	Instant creationdate;
+	boolean isdone;
+
+}

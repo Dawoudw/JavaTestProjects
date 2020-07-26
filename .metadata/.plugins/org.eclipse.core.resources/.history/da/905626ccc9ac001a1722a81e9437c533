@@ -1,0 +1,99 @@
+package dev.wael.entities;
+
+import java.awt.List;
+import java.time.Instant;
+import java.util.ArrayList;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tasklist")
+public class TaskList{
+
+	public TaskList() {
+		// TODO Auto-generated constructor stub
+	}
+	/*
+	 * SELECT id, title, description, status, taskid, duedate FROM todo.listitem;
+	 * SELECT tid, listname, creationdate, isdone FROM todo.tasklist;
+	 */
+
+	int tid;
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((creationdate == null) ? 0 : creationdate.hashCode());
+		result = prime * result + (isdone ? 1231 : 1237);
+		result = prime * result + ((listname == null) ? 0 : listname.hashCode());
+		result = prime * result + tid;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		TaskList other = (TaskList) obj;
+		if (creationdate == null) {
+			if (other.creationdate != null)
+				return false;
+		} else if (!creationdate.equals(other.creationdate))
+			return false;
+		if (isdone != other.isdone)
+			return false;
+		if (listname == null) {
+			if (other.listname != null)
+				return false;
+		} else if (!listname.equals(other.listname))
+			return false;
+		if (tid != other.tid)
+			return false;
+		return true;
+	}
+	public int getTid() {
+		return tid;
+	}
+	public void setTid(int tid) {
+		this.tid = tid;
+	}
+	public TaskList(int tid, String listname, Instant creationdate, boolean isdone) {
+		super();
+		this.tid = tid;
+		this.listname = listname;
+		this.creationdate = creationdate;
+		this.isdone = isdone;
+	}
+	public String getListname() {
+		return listname;
+	}
+	public void setListname(String listname) {
+		this.listname = listname;
+	}
+	public Instant getCreationdate() {
+		return creationdate;
+	}
+	public void setCreationdate(Instant creationdate) {
+		this.creationdate = creationdate;
+	}
+	public boolean isIsdone() {
+		return isdone;
+	}
+	public void setIsdone(boolean isdone) {
+		this.isdone = isdone;
+	}
+
+	String listname;
+	Instant creationdate;
+	boolean isdone;
+	
+//	@OneToMany 
+//	 ArrayList<ListItem> ListItems  = new  ArrayList<ListItem>();
+
+}

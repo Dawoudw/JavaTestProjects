@@ -1,0 +1,9 @@
+package dev.wael.contoller;
+
+public class RecipeContoller {
+
+	public RecipeContoller() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

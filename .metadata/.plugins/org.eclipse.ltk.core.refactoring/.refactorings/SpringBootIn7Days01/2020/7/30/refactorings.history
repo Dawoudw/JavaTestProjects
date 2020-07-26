@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dev.wael.service.RcipeService&apos; to &apos;RecipeService&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootIn7Days01&apos;&#x0D;&#x0A;- Original element: &apos;dev.wael.service.RcipeService&apos;&#x0D;&#x0A;- Renamed element: &apos;dev.wael.service.RecipeService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RcipeService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dev.wael.service{RcipeService.java[RcipeService" matchStrategy="1" name="RecipeService" qualified="false" references="true" similarDeclarations="true" stamp="1595283787113" textual="false" version="1.0"/>
+</session>

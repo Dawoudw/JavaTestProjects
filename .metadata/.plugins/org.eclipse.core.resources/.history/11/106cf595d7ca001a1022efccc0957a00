@@ -1,0 +1,30 @@
+package dev.wael.service;
+
+import java.security.PublicKey;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import dev.wael.dao.IRecipeRepository;
+import dev.wael.model.Recipe;
+
+@Service
+public class RcipeService {
+
+	public RcipeService() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Autowired
+	IRecipeRepository rep;
+
+	public Recipe Add(Recipe rec) {
+		return rep.save(rec);
+	}
+
+	public List<Recipe> getAll() {
+		return rep.findAll();
+
+	}
+}

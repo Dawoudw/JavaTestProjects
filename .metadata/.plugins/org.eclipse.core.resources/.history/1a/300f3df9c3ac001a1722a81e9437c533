@@ -1,0 +1,19 @@
+package dev.wael.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="listitem") 
+public class ListItem {
+
+	public ListItem() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	/*
+	 * SELECT id, title, description, status, taskid, duedate FROM todo.listitem;
+	 * SELECT tid, listname, creationdate, isdone FROM todo.tasklist;
+	 */
+
+}

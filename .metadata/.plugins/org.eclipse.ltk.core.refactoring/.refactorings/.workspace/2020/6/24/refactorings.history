@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringBootToDo&apos; to &apos;SpringBootToDoJPA&apos;" description="Rename resource &apos;SpringBootToDo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringBootToDo" name="SpringBootToDoJPA" stamp="1591976565120" updateReferences="true"/>
+</session>

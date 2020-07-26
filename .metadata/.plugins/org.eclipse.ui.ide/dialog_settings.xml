@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="657"/>
+		<item key="DIALOG_Y_ORIGIN" value="341"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Work\Revature\Repository\2003CUNY\Wael\SpringLTIU\SpringLTIUpdate"/>
+			<item value="D:\Work\Revature\Repository\Javawork\Project03\Project-3-backend\BBS"/>
+			<item value="D:\Work\Revature\Repository\Javawork\Project1"/>
+			<item value="D:\Work\Revature\Repository\Javawork\Project2\The-Sun-Back-End\TheSun"/>
+			<item value="D:\Work\Revature\Repository\Javawork\Project1\ExpenseReimbursement"/>
+			<item value="D:\Work\Revature\Repository\2003CUNY\Wael\SprintTest"/>
+			<item value="D:\Work\Revature\Repository\2003CUNY\Wael\HibernateFilm"/>
+			<item value="D:\Work\Revature\Repository\2003CUNY\master_local\ToDoListApp"/>
+			<item value="D:\Work\Revature\Repository\2003CUNY\master_local\ServletAdvanced"/>
+			<item value="D:\Work\Revature\Repository\Javawork"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="D:\Work\Revature\Repository\2003CUNY\Wael"/>
+	</section>
+</section>

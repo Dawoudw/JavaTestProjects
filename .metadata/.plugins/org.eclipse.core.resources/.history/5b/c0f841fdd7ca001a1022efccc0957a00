@@ -1,0 +1,25 @@
+package dev.wael.contoller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import dev.wael.service.RecipeService;
+
+@Controller
+public class RecipeContoller {
+
+	public RecipeContoller() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Autowired
+	RecipeService srv;
+
+	@GetMapping()
+	public List<Recipe> getAllRecipes() {
+		return srv.getAll();
+	}
+}

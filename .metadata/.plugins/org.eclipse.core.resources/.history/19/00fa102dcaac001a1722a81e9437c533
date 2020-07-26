@@ -1,0 +1,67 @@
+package dev.wael.entities;
+
+import java.awt.List;
+import java.time.Instant;
+import java.util.ArrayList;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tasklist")
+public class TaskList{
+
+	public TaskList() {
+		// TODO Auto-generated constructor stub
+	}
+	/*
+	 * SELECT id, title, description, status, taskid, duedate FROM todo.listitem;
+	 * SELECT tid, listname, creationdate, isdone FROM todo.tasklist;
+	 */
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public TaskList(int tid, String listname, Instant creationdate, boolean isdone) {
+		super();
+		this.tid = tid;
+		this.listname = listname;
+		this.creationdate = creationdate;
+		this.isdone = isdone;
+	}
+	int tid;
+	String listname;
+	Instant creationdate;
+	boolean isdone;
+	
+//	@OneToMany 
+//	 ArrayList<ListItem>  ListItems  = new  ArrayList<ListItem>();
+	public int getTid() {
+		return tid;
+	}
+	public void setTid(int tid) {
+		this.tid = tid;
+	}
+	public String getListname() {
+		return listname;
+	}
+	public void setListname(String listname) {
+		this.listname = listname;
+	}
+	public Instant getCreationdate() {
+		return creationdate;
+	}
+	public void setCreationdate(Instant creationdate) {
+		this.creationdate = creationdate;
+	}
+	public boolean isIsdone() {
+		return isdone;
+	}
+	public void setIsdone(boolean isdone) {
+		this.isdone = isdone;
+	}
+
+
+}

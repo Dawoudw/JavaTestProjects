@@ -1,0 +1,9 @@
+package dev.wael.service;
+
+public class RcipeService {
+
+	public RcipeService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
