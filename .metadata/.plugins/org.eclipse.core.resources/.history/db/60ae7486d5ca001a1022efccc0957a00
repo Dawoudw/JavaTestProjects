@@ -1,8 +1,0 @@
-package dev.wael.dao;
-
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface IRecipeRepository {
-
-}
